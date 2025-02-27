@@ -1,0 +1,48 @@
+(myenv) user@user-desktop:~/mpc2$ python3 imagempc.py
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+Mobil mulai berjalan...
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+angle: 21
+MPC Aktif...
+Error terjadi: index 4 is out of bounds for axis 0 with size 3
+Stopping system...
+Traceback (most recent call last):
+  File "imagempc.py", line 428, in main
+    mpc.get_control()
+  File "/home/user/mpc2/Kontroller3.py", line 177, in get_control
+    self._init_problem()
+  File "/home/user/mpc2/Kontroller3.py", line 125, in _init_problem
+    if vmax_dyn < umax_dyn[self.nu*n]:
+IndexError: index 4 is out of bounds for axis 0 with size 3
+
